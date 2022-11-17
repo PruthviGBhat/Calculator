@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Calculator</title>
+    <link rel="stylesheet" href="../Calculator/Calcu_style.css">
+</head>
+<style>
+   
+</style>
+
+<body>
+    <div class="container">
+        <div class="calculator">
+            <div class="input">
+                <h4 id="upper"></h4>
+                <h3 id="lower"></h3>
+            </div>
+            <div class="working">
+                <button onclick="pressClearAll()" id="specbtn">AC</button>
+                <button onclick="pressClear()" id="specbtn">Del</button>
+                <button onclick="pressMod(this)">%</button>
+                <button onclick="pressOperator(this)">/</button>
+                <button onclick="pressNum(this)">7</button>
+                <button onclick="pressNum(this)">8</button>
+                <button onclick="pressNum(this)">9</button>
+                <button onclick="pressOperator(this)">x</button>
+                <button onclick="pressNum(this)">4</button>
+                <button onclick="pressNum(this)">5</button>
+                <button onclick="pressNum(this)">6</button>
+                <button onclick="pressOperator(this)">-</button>
+                <button onclick="pressNum(this)">1</button>
+                <button onclick="pressNum(this)">2</button>
+                <button onclick="pressNum(this)">3</button>
+                <button onclick="pressOperator(this)">+</button>
+                <button onclick="pressNum(this)">0</button>
+                <button onclick="pressNum(this)">00</button>
+                <button onclick="pressDot()" >.</button>
+                <button onclick="pressEquals(this)" id="specbtn">=</button>
+            </div>
+        </div>
+    </div>
+    <script src="../Calculator/Calcu_script.js">
+       
+    </script>
+</body>
+
+</html>
